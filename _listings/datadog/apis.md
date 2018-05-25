@@ -1,18 +1,13 @@
 ---
-name: DataDog
+name: Datadog
 x-slug: datadog
-description: Datadog is a monitoring service that brings together metrics and events
-  from servers, databases, applications, tools and services to present a unified view
-  of the infrastructure. These capabilities are provided on a SaaS-based data analytics
-  platform that enables Dev and Ops teams to work collaboratively on the infrastructure
-  to avoid downtime, resolve performance problems, and ensure that development and
-  deployment cycles finish on time.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+description: See inside any stack, any app, at any scale, anywhere.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags: DataDog
-created: "2018-05-21"
-modified: "2018-05-21"
+x-alexaRank: "13593"
+tags: Datadog
+created: "2018-05-25"
+modified: "2018-05-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datadog/master/_listings/datadog/apis.md
 specificationVersion: "0.14"
 apis:
@@ -20,7 +15,7 @@ apis:
   x-api-slug: datadog-api
   description: Get the list of actively reporting metrics from a given time until
     now. This endpoint is not available in the Python and Ruby libraries.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///metrics
   tags: Monitoring,Metrics
@@ -34,7 +29,7 @@ apis:
   description: |-
     The metrics end-point allows you to post time-series data that can be
               graphed on Datadog's dashboards.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///series
   tags: Monitoring,Series
@@ -44,7 +39,7 @@ apis:
 - name: DataDog API Get Query
   x-api-slug: datadog-api
   description: This end point allows you to query for metrics from any time period.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///query
   tags: Monitoring,Query
@@ -56,7 +51,7 @@ apis:
 - name: DataDog API Add Check Run
   x-api-slug: datadog-api
   description: Post a Check Run
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///check_run
   tags: Monitoring,Checks, Run
@@ -68,7 +63,7 @@ apis:
 - name: DataDog API Add Downtime
   x-api-slug: datadog-api
   description: Schedule monitor downtime
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///downtime
   tags: Monitoring,Downtime
@@ -78,7 +73,7 @@ apis:
 - name: DataDog API Put Downtime Downtime
   x-api-slug: datadog-api
   description: Update monitor downtime
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///downtime/:downtime_id
   tags: Monitoring,Downtime, Downtime
@@ -88,7 +83,7 @@ apis:
 - name: DataDog API Delete Downtime Downtime
   x-api-slug: datadog-api
   description: DELETE downtime downtime
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///downtime/:downtime_id
   tags: Monitoring,Downtime, Downtime
@@ -100,7 +95,7 @@ apis:
 - name: DataDog API Get Downtime Downtime
   x-api-slug: datadog-api
   description: Get a monitor downtime
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///downtime/:downtime_id
   tags: Monitoring,Downtime, Downtime
@@ -112,7 +107,7 @@ apis:
 - name: DataDog API Get Downtime
   x-api-slug: datadog-api
   description: Get all monitor downtimes
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///downtime
   tags: Monitoring,Downtime
@@ -124,7 +119,7 @@ apis:
 - name: DataDog API Add Screen
   x-api-slug: datadog-api
   description: POST screen
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///screen
   tags: Monitoring,Screen
@@ -136,7 +131,7 @@ apis:
 - name: DataDog API Put Screen Board
   x-api-slug: datadog-api
   description: PUT screen board
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///screen/:board_id
   tags: Monitoring,Screen, Board
@@ -148,7 +143,7 @@ apis:
 - name: DataDog API Delete Screen Board
   x-api-slug: datadog-api
   description: Delete an existing screenboard.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///screen/:board_id
   tags: Monitoring,Screen, Board
@@ -160,7 +155,7 @@ apis:
 - name: DataDog API Get Screen Board
   x-api-slug: datadog-api
   description: Fetch an existing screenboard's definition.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///screen/:board_id
   tags: Monitoring,Screen, Board
@@ -172,7 +167,7 @@ apis:
 - name: DataDog API Get Screen
   x-api-slug: datadog-api
   description: Fetch all of your screenboards' definitions.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///screen
   tags: Monitoring,Screen
@@ -184,7 +179,7 @@ apis:
 - name: DataDog API Get Screen Share Board
   x-api-slug: datadog-api
   description: Share an existing screenboard's with a public URL.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///screen/share/:board_id
   tags: Monitoring,Screen, Share, Board
@@ -196,7 +191,7 @@ apis:
 - name: DataDog API Delete Screen Share Board
   x-api-slug: datadog-api
   description: Revoke a currently shared screenboard's.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///screen/share/:board_id
   tags: Monitoring,Screen, Share, Board
@@ -208,7 +203,7 @@ apis:
 - name: DataDog API Get Tags Hosts
   x-api-slug: datadog-api
   description: Return a mapping of tags to hosts for your whole infrastructure.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///tags/hosts
   tags: Monitoring,Tags, Hosts
@@ -220,7 +215,7 @@ apis:
 - name: DataDog API Get Tags Hosts Host Name
   x-api-slug: datadog-api
   description: Return the list of tags that apply to a given host.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///tags/hosts/:host_name
   tags: Monitoring,Tags, Hosts, Host, Name
@@ -230,7 +225,7 @@ apis:
 - name: DataDog API Add Tags Hosts Host Name
   x-api-slug: datadog-api
   description: This end point allows you to add tags to a host.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///tags/hosts/:host_name
   tags: Monitoring,Tags, Hosts, Host, Name
@@ -240,7 +235,7 @@ apis:
 - name: DataDog API Put Tags Hosts Host Name
   x-api-slug: datadog-api
   description: This end point allows you to update all tags for a given host.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///tags/hosts/:host_name
   tags: Monitoring,Tags, Hosts, Host, Name
@@ -250,7 +245,7 @@ apis:
 - name: DataDog API Delete Tags Hosts Host Name
   x-api-slug: datadog-api
   description: This end point allows you to remove all tags for a given host.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///tags/hosts/:host_name
   tags: Monitoring,Tags, Hosts, Host, Name
@@ -263,7 +258,7 @@ apis:
     Comments are essentially special forms of events that
               appear in the stream. They can start a new discussion thread or
               optionally, reply in another thread.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1//comments
   tags: Monitoring,Comments
@@ -273,7 +268,7 @@ apis:
 - name: DataDog API Put Comments Comment
   x-api-slug: datadog-api
   description: PUT comments comment
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1//comments/:comment_id
   tags: Monitoring,Comments, Comment
@@ -285,7 +280,7 @@ apis:
 - name: DataDog API Delete Comments Comment
   x-api-slug: datadog-api
   description: DELETE comments comment
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1//comments/:comment_id
   tags: Monitoring,Comments, Comment
@@ -297,7 +292,7 @@ apis:
 - name: DataDog API Get Graph Snapshot
   x-api-slug: datadog-api
   description: GET graph snapshot
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1//graph/snapshot
   tags: Monitoring,Graph, Snapshot
@@ -307,7 +302,7 @@ apis:
 - name: DataDog API Add Events
   x-api-slug: datadog-api
   description: Post an Event
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///events
   tags: Monitoring,Events
@@ -319,7 +314,7 @@ apis:
 - name: DataDog API Get Events Event
   x-api-slug: datadog-api
   description: GET events event
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///events/:event_id
   tags: Monitoring,Events, Event
@@ -331,7 +326,7 @@ apis:
 - name: DataDog API Delete Events Event
   x-api-slug: datadog-api
   description: DELETE events event
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///events/:event_id
   tags: Monitoring,Events, Event
@@ -343,7 +338,7 @@ apis:
 - name: DataDog API Add Monitor
   x-api-slug: datadog-api
   description: Create a monitor
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///monitor
   tags: Monitoring,Monitor
@@ -353,7 +348,7 @@ apis:
 - name: DataDog API Get Monitor Monitor
   x-api-slug: datadog-api
   description: GET monitor monitor
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///monitor/:monitor_id
   tags: Monitoring,Monitor, Monitor
@@ -365,7 +360,7 @@ apis:
 - name: DataDog API Put Monitor Monitor
   x-api-slug: datadog-api
   description: PUT monitor monitor
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///monitor/:monitor_id
   tags: Monitoring,Monitor, Monitor
@@ -377,7 +372,7 @@ apis:
 - name: DataDog API Delete Monitor Monitor
   x-api-slug: datadog-api
   description: DELETE monitor monitor
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///monitor/:monitor_id
   tags: Monitoring,Monitor, Monitor
@@ -389,7 +384,7 @@ apis:
 - name: DataDog API Get Monitor
   x-api-slug: datadog-api
   description: Get all monitor details
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///monitor
   tags: Monitoring,Monitor
@@ -404,7 +399,7 @@ apis:
     Muting will prevent all monitors from notifying through email and posts
             to the event stream. State changes will only be visible by checking
             the alert page.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///monitor/mute_all
   tags: Monitoring,Monitor, Mute, All
@@ -416,7 +411,7 @@ apis:
   description: |-
     Disables muting all monitors. Throws an error if mute all was
             not enabled previously.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///monitor/unmute_all
   tags: Monitoring,Monitor, Unmute, All
@@ -428,7 +423,7 @@ apis:
 - name: DataDog API Add Monitor Monitor  Mute
   x-api-slug: datadog-api
   description: POST monitor monitor  mute
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///monitor/:monitor_id/mute
   tags: Monitoring,Monitor, Monitor, , Mute
@@ -440,7 +435,7 @@ apis:
 - name: DataDog API Add Dash
   x-api-slug: datadog-api
   description: Create a Timeboard
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///dash
   tags: Monitoring,Dash
@@ -450,7 +445,7 @@ apis:
 - name: DataDog API Put Dash Dash
   x-api-slug: datadog-api
   description: Update a Timeboard
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///dash/:dash_id
   tags: Monitoring,Dash, Dash
@@ -460,7 +455,7 @@ apis:
 - name: DataDog API Delete Dash Dash
   x-api-slug: datadog-api
   description: Delete a Timeboard
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///dash/:dash_id
   tags: Monitoring,Dash, Dash
@@ -472,7 +467,7 @@ apis:
 - name: DataDog API Get Dash
   x-api-slug: datadog-api
   description: Get all Timeboards
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1///dash
   tags: Monitoring,Dash
@@ -484,7 +479,7 @@ apis:
 - name: DataDog API Add User
   x-api-slug: datadog-api
   description: POST user
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1//user
   tags: Monitoring,User
@@ -496,7 +491,7 @@ apis:
 - name: DataDog API Get User Handle
   x-api-slug: datadog-api
   description: GET user handle
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1//user/:handle
   tags: Monitoring,User, Handle
@@ -508,7 +503,7 @@ apis:
 - name: DataDog API Get User
   x-api-slug: datadog-api
   description: GET user
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1//user
   tags: Monitoring,User
@@ -520,7 +515,7 @@ apis:
 - name: DataDog API Put User Handle
   x-api-slug: datadog-api
   description: Can only be used with application keys belonging to administrators.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1//user/:handle
   tags: Monitoring,User, Handle
@@ -532,7 +527,7 @@ apis:
 - name: DataDog API Get Graph Embed
   x-api-slug: datadog-api
   description: Gets a list of previously created embeddable graphs.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1//graph/embed
   tags: Monitoring,Graph, Embed
@@ -544,7 +539,7 @@ apis:
 - name: DataDog API Add Graph Embed
   x-api-slug: datadog-api
   description: Creates a new embeddable graph.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1//graph/embed
   tags: Monitoring,Graph, Embed
@@ -556,7 +551,7 @@ apis:
 - name: DataDog API Get Graph Embed Embed
   x-api-slug: datadog-api
   description: Get the HTML fragment for a previously generated embed with embed_id.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1//graph/embed/:embed_id
   tags: Monitoring,Graph, Embed, Embed
@@ -566,7 +561,7 @@ apis:
 - name: DataDog API Get Graph Embed Embed  Enable
   x-api-slug: datadog-api
   description: Enable a specified embed.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1//graph/embed/:embed_id/enable
   tags: Monitoring,Graph, Embed, Embed, , Enable
@@ -575,16 +570,11 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datadog/master/_listings/datadog/graphembedembed-idenable-get-openapi.md
 - name: DataDog API
   x-api-slug: datadog-api
-  description: Datadog is a monitoring service that brings together metrics and events
-    from servers, databases, applications, tools and services to present a unified
-    view of the infrastructure. These capabilities are provided on a SaaS-based data
-    analytics platform that enables Dev and Ops teams to work collaboratively on the
-    infrastructure to avoid downtime, resolve performance problems, and ensure that
-    development and deployment cycles finish on time.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datadog-logo.png
+  description: See inside any stack, any app, at any scale, anywhere.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg
   humanURL: https://www.datadoghq.com/
   baseURL: https:///api/v1/
-  tags: DataDog
+  tags: Datadog
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/datadog/master/_listings/datadog/openapi.md
@@ -593,6 +583,18 @@ x-common:
   url: https://www.datadoghq.com/blog/
 - type: x-blog-rss
   url: https://www.datadoghq.com/feed/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/datadog
+- type: x-email
+  url: info@datadoghq.com
+- type: x-email
+  url: help@datadoghq.com
+- type: x-email
+  url: legalcompliance@datadoghq.com
+- type: x-email
+  url: legal@datadoghq.com
+- type: x-email
+  url: iwant@datadoghq.com
 - type: x-github
   url: https://github.com/datadog
 - type: x-twitter

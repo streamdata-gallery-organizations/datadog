@@ -1,6 +1,6 @@
 ---
 swagger: "2.0"
-x-collection-name: DataDog
+x-collection-name: Datadog
 x-complete: 0
 info:
   title: DataDog API Get Metrics

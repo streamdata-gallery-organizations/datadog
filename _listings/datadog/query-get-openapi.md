@@ -1,6 +1,6 @@
 ---
 swagger: "2.0"
-x-collection-name: DataDog
+x-collection-name: Datadog
 x-complete: 0
 info:
   title: DataDog API Get Query
@@ -38,9 +38,8 @@ paths:
       parameters:
       - in: query
         name: '[[POSIX_timestamp, numeric_value], ...]'
-        description: '                            Note that the timestamp should be
-          in seconds, must be current, and the numeric value is a 32bit float gauge-type
-          value'
+        description: Note that the timestamp should be in seconds, must be current,
+          and the numeric value is a 32bit float gauge-type value
         type: string
       responses:
         200:

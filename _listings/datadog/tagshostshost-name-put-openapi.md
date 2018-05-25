@@ -1,6 +1,6 @@
 ---
 swagger: "2.0"
-x-collection-name: DataDog
+x-collection-name: Datadog
 x-complete: 0
 info:
   title: DataDog API Put Tags Hosts Host Name
@@ -38,9 +38,8 @@ paths:
       parameters:
       - in: query
         name: '[[POSIX_timestamp, numeric_value], ...]'
-        description: '                            Note that the timestamp should be
-          in seconds, must be current, and the numeric value is a 32bit float gauge-type
-          value'
+        description: Note that the timestamp should be in seconds, must be current,
+          and the numeric value is a 32bit float gauge-type value
         type: string
       responses:
         200:
@@ -82,24 +81,24 @@ paths:
       parameters:
       - in: query
         name: period
-        description: ' how often to repeat as an integer'
+        description: how often to repeat as an integer
         type: string
       - in: query
         name: type
-        description: ' the type of recurrence'
+        description: the type of recurrence
         type: string
       - in: query
         name: until_date
-        description: ' (optional) the date at which the recurrence should end as a
-          POSIX timestmap'
+        description: (optional) the date at which the recurrence should end as a POSIX
+          timestmap
         type: string
       - in: query
         name: until_occurrences
-        description: ' (optional) how many times the downtime will be rescheduled'
+        description: (optional) how many times the downtime will be rescheduled
         type: string
       - in: query
         name: week_days
-        description: ' (optional) a list of week days to repeat on'
+        description: (optional) a list of week days to repeat on
         type: string
       responses:
         200:
@@ -127,24 +126,24 @@ paths:
       parameters:
       - in: query
         name: period
-        description: ' how often to repeat as an integer'
+        description: how often to repeat as an integer
         type: string
       - in: query
         name: type
-        description: ' the type of recurrence'
+        description: the type of recurrence
         type: string
       - in: query
         name: until_date
-        description: ' (optional) the date at which the recurrence should end as a
-          POSIX timestmap'
+        description: (optional) the date at which the recurrence should end as a POSIX
+          timestmap
         type: string
       - in: query
         name: until_occurrences
-        description: ' (optional) how many times the downtime will be rescheduled'
+        description: (optional) how many times the downtime will be rescheduled
         type: string
       - in: query
         name: week_days
-        description: ' (optional) a list of week days to repeat on'
+        description: (optional) a list of week days to repeat on
         type: string
       responses:
         200:

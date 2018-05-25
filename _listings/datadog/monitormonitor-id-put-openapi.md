@@ -1,6 +1,6 @@
 ---
 swagger: "2.0"
-x-collection-name: DataDog
+x-collection-name: Datadog
 x-complete: 0
 info:
   title: DataDog API Put Monitor Monitor
@@ -38,9 +38,8 @@ paths:
       parameters:
       - in: query
         name: '[[POSIX_timestamp, numeric_value], ...]'
-        description: '                            Note that the timestamp should be
-          in seconds, must be current, and the numeric value is a 32bit float gauge-type
-          value'
+        description: Note that the timestamp should be in seconds, must be current,
+          and the numeric value is a 32bit float gauge-type value
         type: string
       responses:
         200:
@@ -82,24 +81,24 @@ paths:
       parameters:
       - in: query
         name: period
-        description: ' how often to repeat as an integer'
+        description: how often to repeat as an integer
         type: string
       - in: query
         name: type
-        description: ' the type of recurrence'
+        description: the type of recurrence
         type: string
       - in: query
         name: until_date
-        description: ' (optional) the date at which the recurrence should end as a
-          POSIX timestmap'
+        description: (optional) the date at which the recurrence should end as a POSIX
+          timestmap
         type: string
       - in: query
         name: until_occurrences
-        description: ' (optional) how many times the downtime will be rescheduled'
+        description: (optional) how many times the downtime will be rescheduled
         type: string
       - in: query
         name: week_days
-        description: ' (optional) a list of week days to repeat on'
+        description: (optional) a list of week days to repeat on
         type: string
       responses:
         200:
@@ -127,24 +126,24 @@ paths:
       parameters:
       - in: query
         name: period
-        description: ' how often to repeat as an integer'
+        description: how often to repeat as an integer
         type: string
       - in: query
         name: type
-        description: ' the type of recurrence'
+        description: the type of recurrence
         type: string
       - in: query
         name: until_date
-        description: ' (optional) the date at which the recurrence should end as a
-          POSIX timestmap'
+        description: (optional) the date at which the recurrence should end as a POSIX
+          timestmap
         type: string
       - in: query
         name: until_occurrences
-        description: ' (optional) how many times the downtime will be rescheduled'
+        description: (optional) how many times the downtime will be rescheduled
         type: string
       - in: query
         name: week_days
-        description: ' (optional) a list of week days to repeat on'
+        description: (optional) a list of week days to repeat on
         type: string
       responses:
         200:
@@ -383,7 +382,7 @@ paths:
       parameters:
       - in: query
         name: graph_def
-        description: ' can be used instead of metric_query'
+        description: can be used instead of metric_query
         type: string
       responses:
         200:
@@ -438,24 +437,24 @@ paths:
       parameters:
       - in: query
         name: '#'
-        description: ' an integer or decimal number used to set the              threshold'
+        description: an integer or decimal number used to set the              threshold
         type: string
       - in: query
         name: change_aggr
-        description: ' change, pct_change'
+        description: change, pct_change
         type: string
       - in: query
         name: check
-        description: ' name of the check, e'
+        description: name of the check, e
         type: string
       - in: query
         name: count
-        description: ' must be at &gt;= your max threshold (defined              in
-          the options)'
+        description: must be at &gt;= your max threshold (defined              in
+          the options)
         type: string
       - in: query
         name: escalation_message
-        description: ' a message to include with a              re-notification'
+        description: a message to include with a              re-notification
         type: string
       - in: query
         name: event
@@ -467,128 +466,127 @@ paths:
         type: string
       - in: query
         name: excluded_tags
-        description: ' exluded event tags (comma-separated)'
+        description: exluded event tags (comma-separated)
         type: string
       - in: query
         name: host
-        description: ' event reporting host (comma-separated)'
+        description: event reporting host (comma-separated)
         type: string
       - in: query
         name: include_tags
-        description: ' a boolean indicating whether              notifications from
+        description: a boolean indicating whether              notifications from
           this monitor will automatically insert its              triggering tags
-          into the title'
+          into the title
         type: string
       - in: query
         name: key
-        description: ' a key in key:value tag syntax; defines a              separate
-          alert for each tag in the group (multi-alert)'
+        description: a key in key:value tag syntax; defines a              separate
+          alert for each tag in the group (multi-alert)
         type: string
       - in: query
         name: last
-        description: ' the timeframe to roll up the counts'
+        description: the timeframe to roll up the counts
         type: string
       - in: query
         name: locked
-        description: ' a boolean indicating whether changes to              to this
-          monitor should be restricted to the creator or admins'
+        description: a boolean indicating whether changes to              to this
+          monitor should be restricted to the creator or admins
         type: string
       - in: query
         name: metric alert
         type: string
       - in: query
         name: notify_audit
-        description: ' a boolean indicating whether tagged              users will
-          be notified on changes to this monitor'
+        description: a boolean indicating whether tagged              users will be
+          notified on changes to this monitor
         type: string
       - in: query
         name: notify_no_data
-        description: ' a boolean indicating whether this              monitor will
-          notify when data stops reporting'
+        description: a boolean indicating whether this              monitor will notify
+          when data stops reporting
         type: string
       - in: query
         name: no_data_timeframe
-        description: ' the number of minutes before a              monitor will notify
-          when data stops reporting'
+        description: the number of minutes before a              monitor will notify
+          when data stops reporting
         type: string
       - in: query
         name: operator
-        description: ' &lt;, &lt;=, &gt;, &gt;=, ==, or !='
+        description: '&lt;, &lt;=, &gt;, &gt;=, ==, or !='
         type: string
       - in: query
         name: priority
-        description: ' event priorities (comma-separated)'
+        description: event priorities (comma-separated)
         type: string
       - in: query
         name: renotify_interval
-        description: ' the number of minutes after              the last notification
-          before a monitor will re-notify on the              current status'
+        description: the number of minutes after              the last notification
+          before a monitor will re-notify on the              current status
         type: string
       - in: query
         name: require_full_window
-        description: ' a boolean indicating whether              this monitor needs
-          a full window of data before its evaluated'
+        description: a boolean indicating whether              this monitor needs
+          a full window of data before its evaluated
         type: string
       - in: query
         name: role:db
-        description: ' for a short time:                      {role:db: 1412798116}'
+        description: 'for a short time:                      {role:db: 1412798116}'
         type: string
       - in: query
         name: rollup
-        description: ' the stats rollup method'
+        description: the stats rollup method
         type: string
       - in: query
         name: service check
         type: string
       - in: query
         name: silenced
-        description: ' dictionary of scopes to timestamps or              None'
+        description: dictionary of scopes to timestamps or              None
         type: string
       - in: query
         name: sources
-        description: ' event sources (comma-separated)'
+        description: event sources (comma-separated)
         type: string
       - in: query
         name: space_aggr
-        description: ' avg, sum, min, or max'
+        description: avg, sum, min, or max
         type: string
       - in: query
         name: status
-        description: ' event statuses (comma-separated)'
+        description: event statuses (comma-separated)
         type: string
       - in: query
         name: tags
-        description: ' one or more tags (comma-separated), or *'
+        description: one or more tags (comma-separated), or *
         type: string
       - in: query
         name: thresholds
-        description: ' a dictionary of thresholds by threshold              type'
+        description: a dictionary of thresholds by threshold              type
         type: string
       - in: query
         name: timeout_h
-        description: ' the number of hours of the monitor not              reporting
+        description: the number of hours of the monitor not              reporting
           data before it will automatically resolve from a              triggered
-          state'
+          state
         type: string
       - in: query
         name: timeshift
-        description: ' #m_ago (5, 10, 15, or 30),              #h_ago (1, 2, or 4),
+        description: '#m_ago (5, 10, 15, or 30),              #h_ago (1, 2, or 4),
           or 1d_ago'
         type: string
       - in: query
         name: time_aggr
-        description: ' avg, sum, max, min'
+        description: avg, sum, max, min
         type: string
       - in: query
         name: 'time_aggr(time_window):space_aggr:metric{tags} [by {key}] operator
           #'
-        description: '                          time_aggr avg, sum, max, min, change,
-          or pct_change'
+        description: time_aggr avg, sum, max, min, change, or pct_change
         type: string
       - in: query
         name: time_window
-        description: ' last_#m (5, 10, 15, or 30),              last_#h (1, 2, or
-          4), or last_1d'
+        description: last_#m (5, 10, 15, or 30),              last_#h (1, 2, or 4),
+          or last_1d
         type: string
       - in: query
         name: '[Triggered] Monitor Title'
