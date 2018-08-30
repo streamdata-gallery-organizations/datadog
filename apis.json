@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Datadog",
+	"description": "This is a repository of datadog APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/datadog.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://datadog.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Datadog",
+			"x-api-slug": "datadog",
+			"description": "See inside any stack, any app, at any scale, anywhere.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg",
+			"humanURL": "https://www.datadoghq.com/",
+			"baseURL": "https:///api/v1/",
+			"tags": "Datadog",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/datadog/master/_listings/datadog/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Datadog",
+	"include": [
+		{
+			"name": "Datadog",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/datadog/master/_listings/datadog/apis.yaml"
+		}
+	]
+}
